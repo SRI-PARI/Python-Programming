@@ -1,0 +1,7 @@
+
+s=input()
+res=""
+for i in s.split():
+    res=res+i[::-1]+" "
+print(res)
+
